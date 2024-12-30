@@ -11,6 +11,10 @@ body,
   font-family: "Roboto Mono", monospace;
 }
 
+#map {
+  position: relative;
+}
+
 .marker-mountain {
   z-index: 100000;
 
@@ -19,7 +23,7 @@ body,
   }
 
   &.marker-mountain--climbed {
-    z-index: 100001;
+    z-index: 150000;
 
     .background {
       fill: var(--color);
@@ -27,6 +31,8 @@ body,
   }
 
   &.marker-mountain--selected {
+    z-index: 400000;
+
     .background {
       /* fill: blue !important; */
     }
@@ -44,7 +50,7 @@ body,
   position: absolute;
   top: 20px;
   left: 20px;
-  z-index: 100002;
+  z-index: 300000;
   background-color: var(--color);
   color: white;
   display: inline-block;
@@ -57,8 +63,8 @@ body,
   display: none;
 }
 
-#info-line {
-  z-index: 100001;
+#svg {
+  z-index: 200000;
 }
 
 .mapboxgl-ctrl-top-right {

@@ -46,15 +46,15 @@ map.addControl(
 );
 
 map.on("load", async () => {
-  let clicked = false;
-
-  let currentEl;
+  let clickedMarker = null;
+  let hoveredMarker = null;
+  let clickedFeature = null;
 
   const showInfo = () => {
     document.querySelector("#info").classList.add("open");
 
     let infoBounds = document.querySelector("#info").getBoundingClientRect();
-    let markerBounds = currentEl.getBoundingClientRect();
+    let markerBounds = (hoveredMarker || clickedMarker).getBoundingClientRect();
 
     const horizontalOrientation =
       markerBounds.x + markerBounds.width / 2 > window.innerWidth / 2
@@ -106,98 +106,97 @@ map.on("load", async () => {
     }
   };
 
+  const setInfo = (feature) => {
+    let text;
+
+    if (feature.properties.height) {
+      text = `${feature.properties.name} (${feature.properties.height}m)`;
+    } else {
+      text = `${feature.properties.name}`;
+    }
+
+    document.querySelector("#info").innerHTML = text;
+  };
+
+  const selectMarker = (node) => {
+    node.classList.add("marker-mountain--selected");
+  };
+
+  const unselectAllMarkers = () => {
+    document.querySelectorAll(".marker-mountain").forEach((marker) => {
+      marker.classList.remove("marker-mountain--selected");
+    });
+  };
+
   window.addEventListener("click", () => {
     document.querySelectorAll(".marker-mountain").forEach((marker) => {
       marker.classList.remove("marker-mountain--selected");
     });
 
-    hideInfo();
+    clickedMarker = null;
+    clickedFeature = null;
 
-    clicked = false;
+    hideInfo();
   });
 
   mountainsFeatureCollection.features.forEach((feature) => {
-    const el = document.createElement("div");
+    const marker = document.createElement("div");
 
-    el.innerHTML = svg;
+    marker.innerHTML = svg;
 
-    el.classList.add("marker-mountain");
+    marker.classList.add("marker-mountain");
 
     if (feature.properties.climbed) {
-      el.classList.add("marker-mountain--climbed");
+      marker.classList.add("marker-mountain--climbed");
     }
 
-    const setInfo = () => {
-      let text;
+    marker.addEventListener("click", (event) => {
+      event.stopPropagation();
 
-      if (feature.properties.height) {
-        text = `${feature.properties.name} (${feature.properties.height}m)`;
-      } else {
-        text = `${feature.properties.name}`;
-      }
+      unselectAllMarkers();
 
-      document.querySelector("#info").innerHTML = text;
-    };
+      selectMarker(marker);
 
-    el.addEventListener("click", (e) => {
-      e.stopPropagation();
+      setInfo(feature);
 
-      clicked = true;
+      clickedMarker = marker;
+      clickedFeature = feature;
 
-      if (el.classList.contains("marker-mountain--selected")) {
-        // el.classList.remove("marker-mountain--selected");
-        // document.querySelector("#info").classList.remove("open");
-      } else {
-        document.querySelectorAll(".marker-mountain").forEach((marker) => {
-          marker.classList.remove("marker-mountain--selected");
-        });
-
-        el.classList.add("marker-mountain--selected");
-
-        setInfo();
-
-        currentEl = el;
-
-        showInfo();
-      }
+      showInfo();
 
       map.flyTo({
-        center: feature.geometry.coordinates,
+        center: feature.geometry.coordinates
       });
     });
 
-    el.addEventListener("mouseenter", (e) => {
-      if (clicked) return;
+    marker.addEventListener("mouseenter", (event) => {
+      unselectAllMarkers();
+      
+      selectMarker(marker);
+      
+      setInfo(feature);
 
-      document.querySelectorAll(".marker-mountain").forEach((marker) => {
-        marker.classList.remove("marker-mountain--selected");
-      });
-
-      el.classList.add("marker-mountain--selected");
-
-      setInfo();
-
-      currentEl = el;
+      hoveredMarker = marker;
 
       hideInfo();
       showInfo();
     });
 
-    el.addEventListener("mouseleave", (e) => {
-      if (clicked) return;
+    marker.addEventListener("mouseleave", (event) => {
+      unselectAllMarkers();
 
-      el.classList.remove("marker-mountain--selected");
+      hoveredMarker = null;
 
       hideInfo();
+
+      if (clickedMarker) {
+        selectMarker(clickedMarker);
+        setInfo(clickedFeature);
+        showInfo();
+      }
     });
 
-    new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
-  });
-
-  map.on("click", () => {
-    document.querySelectorAll(".marker-mountain").forEach((marker) => {
-      marker.classList.remove("marker-mountain--selected");
-    });
+    new mapboxgl.Marker(marker).setLngLat(feature.geometry.coordinates).addTo(map);
   });
 
   map.on("zoomstart", () => {
@@ -206,7 +205,10 @@ map.on("load", async () => {
 
   map.on("zoomend", () => {
     hideInfo();
-    showInfo();
+
+    if (hoveredMarker || clickedMarker) {
+      showInfo();
+    }
   });
 
   map.on("movestart", () => {
@@ -215,7 +217,10 @@ map.on("load", async () => {
 
   map.on("moveend", () => {
     hideInfo();
-    showInfo();
+
+    if (hoveredMarker || clickedMarker) {
+      showInfo();
+    }
   });
 
   map.setFog({
