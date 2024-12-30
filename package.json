@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Landkarte",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "parcel ./src/index.html --no-cache --no-hmr",
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
