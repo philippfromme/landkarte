@@ -1,0 +1,101 @@
+:root {
+  --color: blue;
+}
+
+html,
+body,
+#map {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.marker-mountain {
+  z-index: 100000;
+
+  .background {
+    fill: #ddd;
+  }
+
+  &.marker-mountain--climbed {
+    z-index: 100001;
+
+    .background {
+      fill: var(--color);
+    }
+  }
+
+  &.marker-mountain--selected {
+    .background {
+      /* fill: blue !important; */
+    }
+
+    svg {
+      transform: scale(1.5);
+      /* outline: 2px solid blue; */
+      /* background-color: white; */
+      /* border-radius: 100%; */
+    }
+  }
+}
+
+#info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100002;
+  background-color: var(--color);
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  /* border-radius: 24px; */
+  /* border: solid 2px white; */
+}
+
+#info:not(.open) {
+  display: none;
+}
+
+#info-line {
+  z-index: 100001;
+}
+
+.mapboxgl-ctrl-top-right {
+  margin-top: 10px;
+
+  .mapboxgl-ctrl {
+    margin: 10px 20px 0 0;
+  }
+}
+
+.mapboxgl-ctrl-group {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: var(--color) !important;
+}
+
+.mapboxgl-ctrl-icon {
+  background-size: 75%;
+}
+
+.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon {
+  background-image: url("data:image/svg+xml,%0A%3Csvg id='icon' xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpolygon fill='white' points='20 2 20 4 26.586 4 18 12.582 19.414 14 28 5.414 28 12 30 12 30 2 20 2'/%3E%3Cpolygon fill='white' points='14 19.416 12.592 18 4 26.586 4 20 2 20 2 30 12 30 12 28 5.414 28 14 19.416'/%3E%3C/svg%3E%0A") !important;
+}
+
+.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon {
+  background-image: url("data:image/svg+xml,%0A%3Csvg id='icon' xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpolygon fill='white' points='4 18 4 20 10.586 20 2 28.582 3.414 30 12 21.414 12 28 14 28 14 18 4 18'/%3E%3Cpolygon fill='white' points='30 3.416 28.592 2 20 10.586 20 4 18 4 18 14 28 14 28 12 21.414 12 30 3.416'/%3E%3C/svg%3E%0A") !important;
+}
+
+.mapboxgl-ctrl-geolocate .mapboxgl-ctrl-icon {
+  background-image: url("data:image/svg+xml,%0A%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath fill='white' d='M30,15h-6.07A8.0076,8.0076,0,0,0,17,8.0693V2H15V8.0693A8.0076,8.0076,0,0,0,8.07,15H2v2H8.07A8.0076,8.0076,0,0,0,15,23.9307V30h2V23.9307A8.0076,8.0076,0,0,0,23.9305,17H30ZM16,22a6,6,0,1,1,6-6A6.0066,6.0066,0,0,1,16,22Z' transform='translate(0 0)'/%3E%3C/svg%3E%0A") !important;
+}
+
+#svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}

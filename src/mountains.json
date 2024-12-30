@@ -1,0 +1,1529 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mountains",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Daniel",
+        "height": 2340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.88019274476569, 47.43372738150187]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Upsspitze",
+        "height": 2332
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.874244, 47.431049]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochkönig",
+        "height": 2941
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0626383, 47.4201944]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Watzmann Mittelspitze",
+        "height": 2713
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9222847, 47.5543296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Watzmann Südspitze",
+        "height": 2712
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9175986, 47.5481991]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schönfeldspitze",
+        "height": 2653
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.937778, 47.458333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochkalter",
+        "height": 2607
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.8658333, 47.5694444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Hundstod",
+        "height": 2593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.8853718, 47.5125218]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hoher Göll",
+        "height": 2522
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0671668, 47.5937585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Archenkopf",
+        "height": 2391
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0693983, 47.5858569]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kahlersberg",
+        "height": 2350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0333333, 47.5333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hohes Brett",
+        "height": 2340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0494003, 47.5842359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schneibstein",
+        "height": 2275
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0575531, 47.5613384]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Berchtesgadener Hochthron",
+        "height": 1972
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9867169, 47.693452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Jenner",
+        "height": 1874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0218541, 47.5753449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Salzburger Hochthron",
+        "height": 1852
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13, 47.7166667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Karkopf",
+        "height": 1739
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.892222, 47.686389]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Rauher Kopf",
+        "height": 1604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9775262, 47.6691731]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Archenkopf",
+        "height": 1451
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9699151, 47.5664864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Toter Mann",
+        "height": 1392
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9227778, 47.6311111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Grünstein",
+        "height": 1304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.965278, 47.594167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kehlstein",
+        "height": 1881
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0411111, 47.6119444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Windschartenkopf",
+        "height": 2211
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0456788, 47.5501065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Zugspitze",
+        "height": 2962
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.9853652, 47.421066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schneefernerkopf",
+        "height": 2875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.970202, 47.4100078]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochwanner",
+        "height": 2744
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.055925, 47.3958815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochblassen",
+        "height": 2706
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0447222, 47.4225]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Alpspitze",
+        "height": 2628
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0479328, 47.4296979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleiner Wanner",
+        "height": 2547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0407088, 47.396033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hoher Kamm",
+        "height": 2375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0298528, 47.3936241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Bernadeinkopf",
+        "height": 2144
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0613304, 47.4306585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kreuzeck",
+        "height": 1651
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.080556, 47.453333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kramerspitz",
+        "height": 1985
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0470542, 47.5069389]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hoher Fricken",
+        "height": 1940
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.1538889, 47.5322222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Krottenkopf",
+        "height": 2086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.1914021, 47.5442497]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Zschirnstein",
+        "height": 560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1752778, 50.8577778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Winterberg",
+        "height": 556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2666667, 50.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleiner Winterberg",
+        "height": 499
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2608333, 50.9111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleiner Zschirnstein",
+        "height": 472
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.17028, 50.87111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Raumberg",
+        "height": 459
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.333889, 50.899167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Papststein",
+        "height": 451
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1218486, 50.9018482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Gohrisch Stein",
+        "height": 447
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1116667, 50.9011111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Pfaffenstein",
+        "height": 434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0802778, 50.8997222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Affensteine",
+        "height": 419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2355556, 50.9186111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleines Pohlshorn",
+        "height": 417
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3238499, 50.9224735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schrammsteine",
+        "height": 425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.203333, 50.914167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Lilienstein",
+        "height": 415
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0850807, 50.9304071]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Waitzdorfer Höhe",
+        "height": 413
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1423729, 50.9616954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Teichstein",
+        "height": 412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3000935, 50.9136287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochhübel",
+        "height": 407
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3072743, 50.9081251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hohe Liebe",
+        "height": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2091667, 50.9213889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleinhennersdorfer Stein",
+        "height": 392
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1291667, 50.9080556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Winterstein",
+        "height": 390
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2804764, 50.9105932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Zirkelstein",
+        "height": 384
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2203782, 50.8788865]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Falkenstein",
+        "height": 381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1990946, 50.9170469]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großes Pohlshorn",
+        "height": 378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3150174, 50.9187366]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Großer Lorenzstein",
+        "height": 375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2802722, 50.918757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kleiner Lorenzstein",
+        "height": 375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2818013, 50.9198953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Königstein",
+        "height": 360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0594399, 50.9188932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Kaiserkrone",
+        "height": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2177778, 50.8866667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Wolfsberg",
+        "height": 342
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1836111, 50.8883333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Neuer Wildenstein",
+        "height": 337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2564199, 50.9260441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2024-12-27",
+        "url": null,
+        "note": null,
+        "name": "Kleiner Bärenstein",
+        "height": 337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0450127, 50.9422349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2024-12-27",
+        "url": null,
+        "note": null,
+        "name": "Grosser Bärenstein",
+        "height": 327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0444987, 50.9460002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Bastei",
+        "height": 305
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0731656, 50.9619121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Rauenstein",
+        "height": 303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.062221, 50.9519083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Gamrig",
+        "height": 253
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.09706, 50.95838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Honigsteine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.086, 50.9661736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Feldsteine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0856063, 50.9624375]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hoher Schneeberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.106944, 50.795556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": false,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Rudolfstein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.399778, 50.871583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Marienfels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.404722, 50.86]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Knallstein",
+        "height": 2233,
+        "mountainRange": "Tennengebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.231620034687127, 47.54521117200538]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schober",
+        "height": 1329,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311866803082564, 47.813058952141205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Gaisberg",
+        "height": 1287,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.116434529631471, 47.80120247419063]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Rettenkogel",
+        "height": 1780,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.49950565803509, 47.68421414271392]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Bergwerkskogel",
+        "height": 1781,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.509713400166163, 47.67716731296683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Drachenwand",
+        "height": 1060,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.354783, 47.813399]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Plombergstein",
+        "height": 920,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.360212, 47.781681]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochglockner",
+        "height": 1590,
+        "mountainRange": "Salzburger Schieferalpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.149898726163137, 47.353281604327854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hochstaufen",
+        "height": 1771,
+        "mountainRange": "Chiemgauer Alpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.848758, 47.754958]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Rauher Kopf",
+        "height": 1898,
+        "mountainRange": "Mieminger Gebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.925946, 47.375889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Hinteres Tajatörl",
+        "height": 2259,
+        "mountainRange": "Mieminger Gebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.949233, 47.355419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Nockstein",
+        "height": 1042,
+        "mountainRange": "Salzkammergut-Berge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.119976, 47.815711]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Gatterl",
+        "height": 2024,
+        "mountainRange": "Wetterstein Gebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.016498, 47.396345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Biberwierer Scharte",
+        "height": 2000,
+        "mountainRange": "Mieminger Gebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.920016709692627, 47.36326335872272]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Höllkopf",
+        "height": 2167,
+        "mountainRange": "Mieminger Gebirge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.918315, 47.341789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Schellschlicht",
+        "height": 2050,
+        "mountainRange": "Ammergauer Alpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.916339, 47.509298]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Pico Grande",
+        "height": 1654,
+        "mountainRange": "Madeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.987846, 32.737184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Pico Casado ou da Parteira",
+        "height": 1728,
+        "mountainRange": "Madeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.9839323, 32.7568408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Pico do Areeiro",
+        "height": 1818,
+        "mountainRange": "Madeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.9286618, 32.7354798]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Pico Ruivo",
+        "height": 1862,
+        "mountainRange": "Madeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.942763, 32.758804]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Su Texile",
+        "height": 974,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1700104, 39.9484322]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Bruncu Spina",
+        "height": 1828,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.3019179, 40.0160136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Trebina Longa",
+        "height": 812,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7448915, 39.777989]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Monte Corrasi",
+        "height": 1463,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.432622, 40.256867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Monte San Giovanni",
+        "height": 1316,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.41313, 40.11959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Monte Fumai",
+        "height": 1316,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.400353, 40.107453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Punta Carabidda",
+        "height": 1321,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.43057, 40.26026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": null,
+        "url": null,
+        "note": null,
+        "name": "Monte San Primo",
+        "height": 1686,
+        "mountainRange": "Luganer Voralpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.208889, 45.916667]
+      }
+    }
+  ]
+}
