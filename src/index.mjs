@@ -48,12 +48,70 @@ map.addControl(
 map.on("load", async () => {
   let clicked = false;
 
+  let currentEl;
+
+  const showInfo = () => {
+    document.querySelector("#info").classList.add("open");
+
+    let infoBounds = document.querySelector("#info").getBoundingClientRect();
+    let markerBounds = currentEl.getBoundingClientRect();
+
+    const horizontalOrientation =
+      markerBounds.x + markerBounds.width / 2 > window.innerWidth / 2
+        ? "left"
+        : "right";
+    const verticalOrientation =
+      markerBounds.y + markerBounds.height / 2 > window.innerHeight / 2
+        ? "top"
+        : "bottom";
+
+    if (horizontalOrientation === "left") {
+      info.style.left = markerBounds.x - infoBounds.width - GAP + "px";
+    } else {
+      info.style.left = markerBounds.x + markerBounds.width + GAP + "px";
+    }
+
+    if (verticalOrientation === "top") {
+      info.style.top = markerBounds.y - infoBounds.height - GAP + "px";
+    } else {
+      info.style.top = markerBounds.y + markerBounds.height + GAP + "px";
+    }
+
+    const line = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "line"
+    );
+
+    line.id = "line";
+
+    infoBounds = document.querySelector("#info").getBoundingClientRect();
+
+    line.setAttribute("x1", infoBounds.x + infoBounds.width / 2);
+    line.setAttribute("y1", infoBounds.y + infoBounds.height / 2);
+    line.setAttribute("x2", markerBounds.x + markerBounds.width / 2);
+    line.setAttribute("y2", markerBounds.y + markerBounds.height / 2);
+    line.setAttribute("stroke", "blue");
+    line.setAttribute("stroke-width", "2");
+
+    svgOverlay.appendChild(line);
+  };
+
+  const hideInfo = () => {
+    document.querySelector("#info").classList.remove("open");
+
+    const line = svgOverlay.querySelector("#line");
+
+    if (line) {
+      svgOverlay.removeChild(line);
+    }
+  };
+
   window.addEventListener("click", () => {
     document.querySelectorAll(".marker-mountain").forEach((marker) => {
       marker.classList.remove("marker-mountain--selected");
     });
 
-    document.querySelector("#info").classList.remove("open");
+    hideInfo();
 
     clicked = false;
   });
@@ -81,66 +139,10 @@ map.on("load", async () => {
       document.querySelector("#info").innerHTML = text;
     };
 
-    const showInfo = () => {
-      document.querySelector("#info").classList.add("open");
-
-      let infoBounds = document.querySelector("#info").getBoundingClientRect();
-      let markerBounds = el.getBoundingClientRect();
-
-      const horizontalOrientation =
-        markerBounds.x + markerBounds.width / 2 > window.innerWidth / 2
-          ? "left"
-          : "right";
-      const verticalOrientation =
-        markerBounds.y + markerBounds.height / 2 > window.innerHeight / 2
-          ? "top"
-          : "bottom";
-
-      if (horizontalOrientation === "left") {
-        info.style.left = markerBounds.x - infoBounds.width - GAP + "px";
-      } else {
-        info.style.left = markerBounds.x + markerBounds.width + GAP + "px";
-      }
-
-      if (verticalOrientation === "top") {
-        info.style.top = markerBounds.y - infoBounds.height - GAP + "px";
-      } else {
-        info.style.top = markerBounds.y + markerBounds.height + GAP + "px";
-      }
-
-      const line = document.createElementNS(
-        "http://www.w3.org/2000/svg",
-        "line"
-      );
-
-      line.id = "line";
-
-      infoBounds = document.querySelector("#info").getBoundingClientRect();
-
-      line.setAttribute("x1", infoBounds.x + infoBounds.width / 2);
-      line.setAttribute("y1", infoBounds.y + infoBounds.height / 2);
-      line.setAttribute("x2", markerBounds.x + markerBounds.width / 2);
-      line.setAttribute("y2", markerBounds.y + markerBounds.height / 2);
-      line.setAttribute("stroke", "blue");
-      line.setAttribute("stroke-width", "2");
-
-      svgOverlay.appendChild(line);
-    };
-
-    const hideInfo = () => {
-      document.querySelector("#info").classList.remove("open");
-
-      svgOverlay.innerHTML = "";
-    };
-
     el.addEventListener("click", (e) => {
       e.stopPropagation();
 
       clicked = true;
-
-      map.flyTo({
-        center: feature.geometry.coordinates,
-      });
 
       if (el.classList.contains("marker-mountain--selected")) {
         // el.classList.remove("marker-mountain--selected");
@@ -154,8 +156,14 @@ map.on("load", async () => {
 
         setInfo();
 
+        currentEl = el;
+
         showInfo();
       }
+
+      map.flyTo({
+        center: feature.geometry.coordinates,
+      });
     });
 
     el.addEventListener("mouseenter", (e) => {
@@ -169,6 +177,9 @@ map.on("load", async () => {
 
       setInfo();
 
+      currentEl = el;
+
+      hideInfo();
       showInfo();
     });
 
@@ -190,19 +201,21 @@ map.on("load", async () => {
   });
 
   map.on("zoomstart", () => {
-    console.log("zoomstart");
+    hideInfo();
   });
 
   map.on("zoomend", () => {
-    console.log("zoomstart");
+    hideInfo();
+    showInfo();
   });
 
   map.on("movestart", () => {
-    console.log("movestart");
+    hideInfo();
   });
 
   map.on("moveend", () => {
-    console.log("moveend");
+    hideInfo();
+    showInfo();
   });
 
   map.setFog({
