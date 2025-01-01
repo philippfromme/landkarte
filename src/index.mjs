@@ -29,6 +29,7 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/philippfromme/cm1v465nr00s601pl4i6n2yln",
   maxZoom: 20,
   maxPitch: 0,
+  hash: 'location'
 });
 
 map.addControl(new mapboxgl.FullscreenControl());
@@ -56,25 +57,32 @@ map.on("load", async () => {
     let infoBounds = document.querySelector("#info").getBoundingClientRect();
     let markerBounds = (hoveredMarker || clickedMarker).getBoundingClientRect();
 
-    const horizontalOrientation =
-      markerBounds.x + markerBounds.width / 2 > window.innerWidth / 2
-        ? "left"
-        : "right";
-    const verticalOrientation =
-      markerBounds.y + markerBounds.height / 2 > window.innerHeight / 2
-        ? "top"
-        : "bottom";
-
-    if (horizontalOrientation === "left") {
-      info.style.left = markerBounds.x - infoBounds.width - GAP + "px";
+    if (hoveredMarker) {
+      const horizontalOrientation =
+        markerBounds.x + markerBounds.width / 2 > window.innerWidth / 2
+          ? "left"
+          : "right";
+      const verticalOrientation =
+        markerBounds.y + markerBounds.height / 2 > window.innerHeight / 2
+          ? "top"
+          : "bottom";
+  
+      if (horizontalOrientation === "left") {
+        info.style.left = markerBounds.x - infoBounds.width - GAP + "px";
+      } else {
+        info.style.left = markerBounds.x + markerBounds.width + GAP + "px";
+      }
+  
+      if (verticalOrientation === "top") {
+        info.style.top = markerBounds.y - infoBounds.height - GAP + "px";
+      } else {
+        info.style.top = markerBounds.y + markerBounds.height + GAP + "px";
+      }
     } else {
-      info.style.left = markerBounds.x + markerBounds.width + GAP + "px";
-    }
-
-    if (verticalOrientation === "top") {
-      info.style.top = markerBounds.y - infoBounds.height - GAP + "px";
-    } else {
-      info.style.top = markerBounds.y + markerBounds.height + GAP + "px";
+      
+      // position info box top left of the map
+      info.style.left = "20px";
+      info.style.top = "20px";
     }
 
     const line = document.createElementNS(
@@ -107,15 +115,21 @@ map.on("load", async () => {
   };
 
   const setInfo = (feature) => {
-    let text;
+    let html = `${feature.properties.name}`;
 
     if (feature.properties.height) {
-      text = `${feature.properties.name} (${feature.properties.height}m)`;
-    } else {
-      text = `${feature.properties.name}`;
+      html += `<span class="badge badge--height">${feature.properties.height}m</span>`;
+    }
+    
+    if (feature.properties.climbed) {
+      html += `<span class="badge badge--date">${feature.properties.dateClimbed ? new Date(feature.properties.dateClimbed).toLocaleDateString() : 'Unknown date'}</span>`;
     }
 
-    document.querySelector("#info").innerHTML = text;
+    if (feature.properties.url) {
+      // TODO
+    }
+
+    document.querySelector("#info").innerHTML = html;
   };
 
   const selectMarker = (node) => {
@@ -232,3 +246,22 @@ map.on("load", async () => {
     "star-intensity": 0,
   });
 });
+
+const href = window.location.href;
+
+const url = new URL(href);
+
+function getHashParams(url) {
+  const hashParts = url.hash.slice(1).split('&');
+
+  return hashParts.reduce((acc, hashPart) => {
+    const [key, value] = hashPart.split('=');
+
+    return {
+      ...acc,
+      [key]: decodeURIComponent(value)
+    };
+  }, {});
+}
+
+console.log(getHashParams(url));
