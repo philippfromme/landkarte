@@ -6,8 +6,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-06",
+        "url": "https://www.strava.com/activities/11588677853",
         "note": null,
         "name": "Daniel",
         "height": 2340
@@ -21,8 +21,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-06",
+        "url": "https://www.strava.com/activities/11588677853",
         "note": null,
         "name": "Upsspitze",
         "height": 2332
@@ -126,7 +126,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-09-01",
         "url": null,
         "note": null,
         "name": "Hoher Göll",
@@ -201,7 +201,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-22",
         "url": null,
         "note": null,
         "name": "Berchtesgadener Hochthron",
@@ -216,7 +216,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2023-03-21",
         "url": null,
         "note": null,
         "name": "Jenner",
@@ -231,7 +231,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-22",
         "url": null,
         "note": null,
         "name": "Salzburger Hochthron",
@@ -261,7 +261,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2023-03-22",
         "url": null,
         "note": null,
         "name": "Großer Rauher Kopf",
@@ -276,7 +276,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2023-03-19",
         "url": null,
         "note": null,
         "name": "Archenkopf",
@@ -306,7 +306,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2023-03-19",
         "url": null,
         "note": null,
         "name": "Grünstein",
@@ -531,8 +531,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-07",
+        "url": "https://www.strava.com/activities/8847436343",
         "note": null,
         "name": "Großer Zschirnstein",
         "height": 560
@@ -546,8 +546,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-12-11",
+        "url": "https://www.strava.com/activities/6371380904",
         "note": null,
         "name": "Großer Winterberg",
         "height": 556
@@ -561,8 +561,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2021-12-11",
+        "url": "https://www.strava.com/activities/6371380904",
         "note": null,
         "name": "Kleiner Winterberg",
         "height": 499
@@ -576,8 +576,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-07",
+        "url": "https://www.strava.com/activities/8847436343",
         "note": null,
         "name": "Kleiner Zschirnstein",
         "height": 472
@@ -606,8 +606,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-11-29",
+        "url": "https://www.strava.com/activities/8185073481",
         "note": null,
         "name": "Papststein",
         "height": 451
@@ -621,10 +621,10 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-11-29",
+        "url": "https://www.strava.com/activities/8185073481",
         "note": null,
-        "name": "Gohrisch Stein",
+        "name": "Gohrisch",
         "height": 447
       },
       "geometry": {
@@ -635,7 +635,7 @@
     {
       "type": "Feature",
       "properties": {
-        "climbed": true,
+        "climbed": false,
         "dateClimbed": null,
         "url": null,
         "note": null,
@@ -651,8 +651,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-12-15",
+        "url": "https://www.strava.com/activities/8251611152",
         "note": null,
         "name": "Affensteine",
         "height": 419
@@ -666,8 +666,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Kleines Pohlshorn",
         "height": 417
@@ -681,8 +681,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-12-13",
+        "url": "https://www.strava.com/activities/8243824930",
         "note": null,
         "name": "Schrammsteine",
         "height": 425
@@ -696,8 +696,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-07",
+        "url": "https://www.strava.com/activities/8848336027",
         "note": null,
         "name": "Lilienstein",
         "height": 415
@@ -710,7 +710,7 @@
     {
       "type": "Feature",
       "properties": {
-        "climbed": true,
+        "climbed": false,
         "dateClimbed": null,
         "url": null,
         "note": null,
@@ -726,8 +726,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Teichstein",
         "height": 412
@@ -741,8 +741,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-12-21",
+        "url": "https://www.strava.com/activities/13162399656",
         "note": null,
         "name": "Hochhübel",
         "height": 407
@@ -771,8 +771,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-11-29",
+        "url": "https://www.strava.com/activities/8185073481",
         "note": null,
         "name": "Kleinhennersdorfer Stein",
         "height": 392
@@ -786,8 +786,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Winterstein",
         "height": 390
@@ -800,7 +800,7 @@
     {
       "type": "Feature",
       "properties": {
-        "climbed": true,
+        "climbed": false,
         "dateClimbed": null,
         "url": null,
         "note": null,
@@ -831,8 +831,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Großes Pohlshorn",
         "height": 378
@@ -846,8 +846,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Großer Lorenzstein",
         "height": 375
@@ -861,8 +861,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-10",
+        "url": "https://www.strava.com/activities/8865707389",
         "note": null,
         "name": "Kleiner Lorenzstein",
         "height": 375
@@ -876,8 +876,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-11-29",
+        "url": "https://www.strava.com/activities/8184067971",
         "note": null,
         "name": "Königstein",
         "height": 360
@@ -890,9 +890,9 @@
     {
       "type": "Feature",
       "properties": {
-        "climbed": false,
-        "dateClimbed": null,
-        "url": null,
+        "climbed": true,
+        "dateClimbed": "2022-12-12",
+        "url": "https://www.strava.com/activities/8240070756",
         "note": null,
         "name": "Kaiserkrone",
         "height": 350
@@ -921,8 +921,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-12-14",
+        "url": "https://www.strava.com/activities/8247910617",
         "note": null,
         "name": "Neuer Wildenstein",
         "height": 337
@@ -966,8 +966,38 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-12-20",
+        "url": "https://www.strava.com/activities/13155228327",
+        "note": null,
+        "name": "Grenzplatte",
+        "height": 525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.04702688702877, 50.812834040022224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2024-12-20",
+        "url": "https://www.strava.com/activities/13153869673",
+        "note": null,
+        "name": "Herkulessäulen",
+        "height": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.044619474298333, 50.841666919361586]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2022-11-28",
+        "url": "https://www.strava.com/activities/8180571955",
         "note": null,
         "name": "Bastei",
         "height": 305
@@ -981,8 +1011,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2022-12-02",
+        "url": "https://www.strava.com/activities/8197360131",
         "note": null,
         "name": "Rauenstein",
         "height": 303
@@ -996,8 +1026,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-08",
+        "url": "https://www.strava.com/activities/8854680964",
         "note": null,
         "name": "Gamrig",
         "height": 253
@@ -1011,8 +1041,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-04-08",
+        "url": "https://www.strava.com/activities/8854680964",
         "note": null,
         "name": "Honigsteine"
       },
@@ -1067,10 +1097,10 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-12-19",
+        "url": "https://www.strava.com/activities/13147605495",
         "note": null,
-        "name": "Marienfels"
+        "name": "Marienfelsen"
       },
       "geometry": {
         "type": "Point",
@@ -1081,7 +1111,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-30",
         "url": null,
         "note": null,
         "name": "Knallstein",
@@ -1097,7 +1127,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-28",
         "url": null,
         "note": null,
         "name": "Schober",
@@ -1113,7 +1143,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-11",
         "url": null,
         "note": null,
         "name": "Gaisberg",
@@ -1129,8 +1159,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-08-25",
+        "url": "https://www.strava.com/activities/12239499457",
         "note": null,
         "name": "Rettenkogel",
         "height": 1780,
@@ -1145,8 +1175,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-08-25",
+        "url": "https://www.strava.com/activities/12239499457",
         "note": null,
         "name": "Bergwerkskogel",
         "height": 1781,
@@ -1161,7 +1191,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-28",
         "url": null,
         "note": null,
         "name": "Drachenwand",
@@ -1177,7 +1207,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-24",
         "url": null,
         "note": null,
         "name": "Plombergstein",
@@ -1193,8 +1223,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-08-18",
+        "url": "https://www.strava.com/activities/12178939906",
         "note": null,
         "name": "Hochglockner",
         "height": 1590,
@@ -1209,7 +1239,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-09-08",
         "url": null,
         "note": null,
         "name": "Hochstaufen",
@@ -1225,8 +1255,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-08",
+        "url": "https://www.strava.com/activities/11603950202",
         "note": null,
         "name": "Rauher Kopf",
         "height": 1898,
@@ -1241,8 +1271,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-11",
+        "url": "https://www.strava.com/activities/11627216326",
         "note": null,
         "name": "Hinteres Tajatörl",
         "height": 2259,
@@ -1257,7 +1287,7 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
+        "dateClimbed": "2024-08-11",
         "url": null,
         "note": null,
         "name": "Nockstein",
@@ -1273,8 +1303,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-16",
+        "url": "https://www.strava.com/activities/11666297760",
         "note": null,
         "name": "Gatterl",
         "height": 2024,
@@ -1289,8 +1319,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-11",
+        "url": "https://www.strava.com/activities/11627216326",
         "note": null,
         "name": "Biberwierer Scharte",
         "height": 2000,
@@ -1305,8 +1335,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-05-30",
+        "url": "https://www.strava.com/activities/11533083456",
         "note": null,
         "name": "Höllkopf",
         "height": 2167,
@@ -1321,8 +1351,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2024-06-04",
+        "url": "https://www.strava.com/activities/11572335921",
         "note": null,
         "name": "Schellschlicht",
         "height": 2050,
@@ -1337,8 +1367,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-12-11",
+        "url": "https://www.strava.com/activities/10362624419",
         "note": null,
         "name": "Pico Grande",
         "height": 1654,
@@ -1353,8 +1383,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-12-09",
+        "url": "https://www.strava.com/activities/10354719186",
         "note": null,
         "name": "Pico Casado ou da Parteira",
         "height": 1728,
@@ -1369,8 +1399,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-12-06",
+        "url": "https://www.strava.com/activities/10338679779",
         "note": null,
         "name": "Pico do Areeiro",
         "height": 1818,
@@ -1385,8 +1415,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-12-06",
+        "url": "https://www.strava.com/activities/10338679779",
         "note": null,
         "name": "Pico Ruivo",
         "height": 1862,
@@ -1401,10 +1431,10 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-09-02",
+        "url": "https://www.strava.com/activities/9770090615",
         "note": null,
-        "name": "Su Texile",
+        "name": "Meseddu de Texile",
         "height": 974,
         "mountainRange": "Sardinien"
       },
@@ -1417,8 +1447,56 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-06-16",
+        "url": "https://www.strava.com/activities/9276499967",
+        "note": null,
+        "name": "Pedra Longa",
+        "height": 128,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7071, 40.0273]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2023-09-03",
+        "url": "https://www.strava.com/activities/9775453350",
+        "note": null,
+        "name": "Capo Carbonara",
+        "height": null,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.52240, 39.11281]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2023-09-03",
+        "url": "https://www.strava.com/activities/9776712518",
+        "note": null,
+        "name": "Capo Ferrato",
+        "height": null,
+        "mountainRange": "Sardinien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.6071, 39.2965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "climbed": true,
+        "dateClimbed": "2023-09-02",
+        "url": "https://www.strava.com/activities/9768586736",
         "note": null,
         "name": "Bruncu Spina",
         "height": 1828,
@@ -1433,8 +1511,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-09-01",
+        "url": "https://www.strava.com/activities/9763817550",
         "note": null,
         "name": "Trebina Longa",
         "height": 812,
@@ -1449,8 +1527,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-06-18",
+        "url": "https://www.strava.com/activities/9288921011",
         "note": null,
         "name": "Monte Corrasi",
         "height": 1463,
@@ -1465,8 +1543,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-06-17",
+        "url": "https://www.strava.com/activities/9282996492",
         "note": null,
         "name": "Monte San Giovanni",
         "height": 1316,
@@ -1481,8 +1559,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-06-17",
+        "url": "https://www.strava.com/activities/9282996492",
         "note": null,
         "name": "Monte Fumai",
         "height": 1316,
@@ -1497,8 +1575,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-06-14",
+        "url": "https://www.strava.com/activities/9262991659",
         "note": null,
         "name": "Punta Carabidda",
         "height": 1321,
@@ -1513,8 +1591,8 @@
       "type": "Feature",
       "properties": {
         "climbed": true,
-        "dateClimbed": null,
-        "url": null,
+        "dateClimbed": "2023-08-17",
+        "url": "https://www.strava.com/activities/9667431376",
         "note": null,
         "name": "Monte San Primo",
         "height": 1686,
